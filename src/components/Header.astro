@@ -7,16 +7,16 @@ const navItems = [
 ];
 ---
 
-<header class="bg-white shadow-sm">
+<header class="bg-gray-900 border-b border-gray-800">
   <div class="max-w-6xl mx-auto px-4 py-4 flex flex-col sm:flex-row justify-between items-center">
     <div class="flex items-center mb-4 sm:mb-0">
-      <a href="/" class="text-2xl font-bold text-indigo-600">LDD Blog</a>
+      <a href="/" class="text-2xl font-bold text-purple-400">MyBlog</a>
     </div>
     <nav>
       <ul class="flex space-x-6">
         {navItems.map(item => (
           <li>
-            <a href={item.url} class="text-gray-600 hover:text-indigo-600 transition-colors">
+            <a href={item.url} class="text-gray-300 hover:text-purple-400 transition-colors">
               {item.name}
             </a>
           </li>

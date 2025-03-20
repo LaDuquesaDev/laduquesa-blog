@@ -11,11 +11,11 @@ import Layout from '../layouts/Layout.astro';
 
 <Layout>
 	<!-- <Header /> -->
-	<main>
+	<main class="bg-gray-950">
 		<Hero />
 		<About />
-		<section class="max-w-6xl mx-auto px-4 pb-16">
-			<h2 class="text-3xl font-bold text-center mb-8">Latest Articles</h2>
+		<section class="bg-gray-950 max-w-6xl mx-auto px-4 pb-16">
+			<h2 class="text-3xl font-bold text-center mb-8 text-white">Latest Articles</h2>
 			<div class="grid grid-cols-1 md:grid-cols-2 gap-8">
 			  {articles.map(article => (
 				<Card 
