@@ -9,5 +9,5 @@ export default defineConfig({
     plugins: [tailwindcss()]
   },
   output: 'static',
-  site: 'https://LaDuquesaDev.github.io/laduquesa-blog',
+  site: 'https://laduquesadev.github.io/laduquesa-blog',
 });
