@@ -1,48 +1,53 @@
-# Astro Starter Kit: Basics
+# Astro Blog with Tailwind CSS
 
-```sh
-npm create astro@latest -- --template basics
-```
+A modern, responsive blog built with Astro and styled with Tailwind CSS.
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/basics)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/basics)
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/basics/devcontainer.json)
+<img src="https://imgur.com/YszetyL" alt="la duquesa blog" width="300px">
+![](https://imgur.com/YszetyL){width='100px'}
+<img src="https://imgur.com/3gdXZQC" alt="la duquesa blog" wigth="300px"
+![](https://imgur.com/3gdXZQC){width='100px'}
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+## ✨ Features
 
-![just-the-basics](https://github.com/withastro/astro/assets/2244813/a0a5533c-a856-4198-8470-2d67b1d7c554)
+- **Responsive Layout** - Looks great on all devices from mobile to desktop
+- **Component-Based Architecture** - Modular and maintainable code structure
+- **TypeScript Support** - Type-safe development experience
+- **Fast Performance** - Leverages Astro's static site generation for optimal speed
+- **Social Media Integration** - Easy connections to your social profiles
 
-## 🚀 Project Structure
+## 🚀 Tech Stack
 
-Inside of your Astro project, you'll see the following folders and files:
+- [Astro](https://astro.build/) - The web framework for content-driven websites
+- [Tailwind CSS](https://tailwindcss.com/) - Utility-first CSS framework
+- [TypeScript](https://www.typescriptlang.org/) - Typed JavaScript at scale
 
-```text
-/
-├── public/
-│   └── favicon.svg
-├── src/
-│   ├── layouts/
-│   │   └── Layout.astro
-│   └── pages/
-│       └── index.astro
-└── package.json
-```
+## 📋 Prerequisites
 
-To learn more about the folder structure of an Astro project, refer to [our guide on project structure](https://docs.astro.build/en/basics/project-structure/).
+- Node.js (v18 or higher)
+- npm or yarn
 
-## 🧞 Commands
+## 🛠️ Installation
 
-All commands are run from the root of the project, from a terminal:
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/yourusername/astro-blog.git
+   cd astro-blog
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
+2. Install dependencies:
+   ```
+    npm install
+   ```
 
-## 👀 Want to learn more?
+3. Start the development server:
+   ```
+    npm run dev
+   ```
 
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+4. Open your browser and visit ```http://localhost:3000```
+
+## 📚 Documentation
+[Astro Documentation](https://docs.astro.build/en/getting-started/)
+
+[Tailwind CSS Integration](https://docs.astro.build/en/guides/styling/#tailwind)
+
+[HyperUI](https://www.hyperui.dev/) - Free Open Source Tailwind CSS v4 Components
