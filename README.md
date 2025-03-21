@@ -1,11 +1,10 @@
 # Astro Blog with Tailwind CSS
 
-A modern, responsive blog built with Astro and styled with Tailwind CSS.
+#### A modern, responsive blog built with Astro and styled with Tailwind CSS.
 
-<img src="https://imgur.com/YszetyL" alt="la duquesa blog" width="300px">
-![](https://imgur.com/YszetyL){width='100px'}
-<img src="https://imgur.com/3gdXZQC" alt="la duquesa blog" wigth="300px"
-![](https://imgur.com/3gdXZQC){width='100px'}
+<br></br>
+![](https://i.imgur.com/A911cs3.png)
+<br></br>
 
 ## ✨ Features
 
